@@ -61,7 +61,7 @@ train_dataset = CifarDataset(root_dir='machine_learning/cifar10_train', transfor
 train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=True)
 
 # 测试数据集
-test_dataset = CifarDataset(root_dir='machine_learning\cifar10_test', transform=transform)
+test_dataset = CifarDataset(root_dir='machine_learning/cifar10_test', transform=transform)
 
 # 创建DataLoader
 test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=4, shuffle=False)
