@@ -5,7 +5,7 @@ import FCN_model
 
 import CifarDataset
 
-device="cpu"
+device="cuda" if torch.cuda.is_available() else "cpu"
 
 def train_model_FCN(model, train_loader, num_epochs, learning_rate):
     criterion = nn.CrossEntropyLoss()
