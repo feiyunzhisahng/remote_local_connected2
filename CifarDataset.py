@@ -55,13 +55,13 @@ transform = transforms.Compose([
 ])
 
 # 创建数据集
-train_dataset = CifarDataset(root_dir='machine_learning\\HW04\\cifar10_train', transform=transform)
+train_dataset = CifarDataset(root_dir='machine_learning/cifar10_train', transform=transform)
 
 # 创建DataLoader
 train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=True)
 
 # 测试数据集
-test_dataset = CifarDataset(root_dir='machine_learning\\HW04\\cifar10_test', transform=transform)
+test_dataset = CifarDataset(root_dir='machine_learning\cifar10_test', transform=transform)
 
 # 创建DataLoader
 test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=4, shuffle=False)
