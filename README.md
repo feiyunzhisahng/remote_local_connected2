@@ -28,4 +28,14 @@ FCN_model
 
 - FCN_hiddenlayers&num_of_nn
   - ![image-20240507211535596](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240507211535596.png)
-- 
+- LSTM：
+  - 
+
+![image-20240508213120379](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240508213120379.png)
+
+- 如果有时间，可以试一下gpt4说的rnn每次送一个像素（rgb3维）的方式，准确率多少
+
+
+
+- Vanila_RNN
+  - ![image-20240508215505559](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240508215505559.png)
