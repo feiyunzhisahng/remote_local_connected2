@@ -1,6 +1,4 @@
 import torch
-import CNN_model
-import CifarDataset
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -23,8 +21,8 @@ def train_model_CNN(model, train_loader, num_epochs, learning_rate):
             optimizer.step()
             total_loss += loss.item()
 
-            # if (i+1) % 100 == 0:
-            #     print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item():.4f}')
+            if (i+1) % 100 == 0:
+                print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{len(train_loader)}], Loss: {loss.item():.4f}')
         
         print(f'Average Loss for Epoch {epoch+1}: {total_loss / len(train_loader):.4f}')
 

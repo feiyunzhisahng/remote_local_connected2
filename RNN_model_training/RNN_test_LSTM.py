@@ -4,7 +4,8 @@ from RNN_test_fc import test_model
 from CifarDataset import test_dataloader
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-Layer_dim=[1,2,3]
+#试一下16的准确度
+Layer_dim=[16]
 
 def main():
     for layer_dim in Layer_dim:

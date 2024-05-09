@@ -23,6 +23,9 @@ FCN_model
   - **test_accuracy:**![image-20240507194228037](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240507194228037.png)
 - CNN_basic（1层）
   - test_accuracy:![image-20240507194352139](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240507194352139.png)
+  - 5层
+  - 准确度![image-20240509171934253](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240509171934253.png)
+  - 配置![image-20240509171953844](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240509171953844.png)
 - FCN_dropout
   - ![image-20240507202115893](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240507202115893.png)
 
@@ -39,3 +42,5 @@ FCN_model
 
 - Vanila_RNN
   - ![image-20240508215505559](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240508215505559.png)
+  - 乐，16layer直接
+    - ![image-20240508221728422](C:\Users\www14\AppData\Roaming\Typora\typora-user-images\image-20240508221728422.png)

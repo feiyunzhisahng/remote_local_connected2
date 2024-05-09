@@ -15,8 +15,8 @@ def main():
         os.makedirs(output_dir)
 
 
-    #layer_dim=[1,2,3]
-    Layer_dim=[1,2,3]
+    #layer_dim=[1,2,3]//尝试改为16层试一下
+    Layer_dim=[16]
 
     
     # 运行实验

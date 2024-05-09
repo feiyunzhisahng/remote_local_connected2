@@ -58,7 +58,7 @@ transform = transforms.Compose([
 train_dataset = CifarDataset(root_dir='remote_local_connected2\cifar10_train', transform=transform)
 
 # 创建DataLoader
-train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=True)
+train_dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=16, shuffle=True)
 
 # 测试数据集
 test_dataset = CifarDataset(root_dir='remote_local_connected2\cifar10_test', transform=transform)
